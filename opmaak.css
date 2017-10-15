@@ -1,0 +1,23 @@
+input[type=submit] {
+background-color: #f44336;
+    color: white;
+	width: 400px;
+	font-family: 'Roboto';
+	font-size: 22px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input[type=submit]:hover {
+    background-color: red}
+
+input {
+    font-family: 'Roboto';
+	font-size: 25px;
+	width: 410px;
+	padding: 14px 25px;
+	border-style: groove;
+	text-align: center;
+}
