@@ -8,6 +8,8 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Kittens</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="opmaak.css">
     </head>
     <body>
         <?php
