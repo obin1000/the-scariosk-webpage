@@ -13,7 +13,7 @@ and open the template in the editor.
     </head>
     <body>
         <center>
-            <form action="/bestandnaamwaarcodewordtingegooidomtevergelijkenmetcodesindatabase.php" method="post">
+            <form action="/tweedepagina.php" method="post">
                     <br>
                     <br>
                     <br>
