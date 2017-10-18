@@ -17,7 +17,7 @@ and open the template in the editor.
                     <br>
                     <br>
                     <br>
-                <img src="C:/Users/Elhadiyen/Documents/corendonlogo.jpeg" alt="Corendon Logo" style="width:600px;height:200px;">
+                <img src="foto/logocorendon.jpg" alt="Corendon Logo" style="width:600px;height:200px;">
                     <br>
                     <br>
                 <input type="text" placeholder="Voer code in" "> 
