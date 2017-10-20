@@ -22,14 +22,17 @@ input {
 	text-align: center;
 }
 
-
 table, th, td {
                 border-collapse: collapse;
             }
-            th, td {
-                padding: 5px;
+th, td {
+        padding: 5px;
             }
-            table#t01 {
-                width: 100%;    
-                background-color: #f1f1c1;
+td:hover {
+			filter: blur(5px);
+			box-shadow: 10px 10px 5px grey;
+			}	
+table {
+        margin: auto; 
+		padding: 50px 50px;
             }
