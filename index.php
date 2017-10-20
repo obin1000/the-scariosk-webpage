@@ -17,8 +17,7 @@ and open the template in the editor.
                     <br>
                     <br>
                     <br>
-                <img src="foto/logocorendon.jpg" alt="Corendon Logo" style="width:600px;height:200px;">
-                    <br>
+                <img src="https://gitlab.fdmci.hva.nl/fys34/webpage/raw/5f3dc6dce1b1f025cad85efaf9610a5463345c3a/foto/logocorendon.jpg" alt="Corendon Logo" style="width:800px;height:300px;">
                     <br>
                 <input type="text" placeholder="Voer code in" "> 
                     <br>
