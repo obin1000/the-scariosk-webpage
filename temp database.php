@@ -12,7 +12,7 @@
             <input type="submit" name="upload">
         </form>
         <form method="post" action="index.php">
-            <input type="number" name="code" value="Geef hier uw code">
+            <input type="number" name="code">
             <input type="submit" name="invoer">
         </form>
         <?php
@@ -23,5 +23,6 @@
         include 'filedownload.php';
         }
         ?>
+        <img src="<?php echo $foto_path; ?>" />
     </body>
 </html>
