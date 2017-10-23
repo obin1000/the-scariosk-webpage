@@ -1,18 +1,19 @@
 <?php
 //variables als opslag van de data van de file
 $foto = $_FILES['foto'];            
-$foto_naam = $foto['name'];         //orginele bestandsnaam
-$foto_tmp = $foto['tmp_name'];      //tijdelijke opslag
-$foto_error = $foto['error'];       //error counter
-$foto_id = rand(0, 999999999);      //uniek id voor de database
-shuffle($foto_id);
+$foto_naam = $foto['name'];                     //orginele bestandsnaam
+$foto_tmp = $foto['tmp_name'];                  //tijdelijke opslag
+$foto_error = $foto['error'];                   //error counter                 
+$id = range(0, 999999);                       //Lijst met nummers 0 to 999999999
+shuffle($id);                                   //shuffel de array doorelkaar
+$foto_id = array_shift($id);                    //pak en verwijder id uit array
 $foto_locatie = 'foto/' . $foto_id . '.jpg';    //path naar /foto als id.jpg
 
 if($foto_error > 0){                //check voor errors
     die("Error uploading" . $error);
 }
 else{
-    //als er geen eroors zijn wordt de afbeelding geupload
+    //als er geen errors zijn wordt de afbeelding geupload
     if (move_uploaded_file($foto_tmp, $foto_locatie)){
         //De klant de id laten zin waarmee de foto kan worden opgehaald
         echo "<h1>$foto_id</h1>";   
