@@ -1,38 +1,28 @@
-input[type=submit] {
-background-color: #f44336;
-    color: white;
-	width: 400px;
-	font-family: 'Roboto';
-	font-size: 22px;
-    padding: 14px 25px;
+body{
     text-align: center;
+}
+.logocorendon{
+    width:40%;
+}
+
+input[type=submit] {
+    background-color: #f44336;
+    color: white;
+    width: 42%;
+    font-size: 25px;
     text-decoration: none;
-    display: inline-block;
 }
 
 input[type=submit]:hover {
     background-color: red}
 
 input {
-    font-family: 'Roboto';
-	font-size: 25px;
-	width: 410px;
-	padding: 14px 25px;
-	border-style: groove;
-	text-align: center;
+    font-size: 25px;
+    width: 40%;
+    padding: 1% 1%;
+    border-style: groove;
+    text-align: center;
 }
-
-table, th, td {
-                border-collapse: collapse;
-            }
-th, td {
-        padding: 5px;
-            }
-td:hover {
-			filter: blur(5px);
-			box-shadow: 10px 10px 5px grey;
-			}	
-table {
-        margin: auto; 
-		padding: 50px 50px;
-            }
+.imagedisplay{
+    width: 40%;
+}
