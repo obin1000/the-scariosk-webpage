@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Corendon Scariosk</title>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="icon" href="fotowebsite/icon.png">
         <link rel="stylesheet" type="text/css" href="opmaak.css">
     </head>
     <body>
-        <center>
-            <form action="/tweedepagina.php" method="post">
-                    <br>
-                    <br>
-                    <br>
-                <img src="https://gitlab.fdmci.hva.nl/fys34/webpage/raw/5f3dc6dce1b1f025cad85efaf9610a5463345c3a/foto/logocorendon.jpg" alt="Corendon Logo" style="width:800px;height:300px;">
-                    <br>
-                <input type="text" placeholder="Voer code in" "> 
-                    <br>
-                    <br>
-                <input type="submit" value="Haal je foto's op">
-            </form>
-        </center>
+        <!--form voor de upload van de foto -->
+        <form method="post" action="index.php" enctype="multipart/form-data">
+            <img class="logocorendon" src="fotowebsite/logocorendon.jpg" alt="Image can't be displayed">
+            <br />
+            <input type="file" name="foto">
+            <br />
+            <input type="submit" name="upload">
+        </form>
+        <!--form voor het ophalen van de foto -->
+        <form method="post" action="index.php">
+            <br />
+            <input type="number" name="code" placeholder="Voer uw code in">
+            <br />
+            <input type="submit" name="invoer">
+        </form>
         <?php
-        // put your code here
+        if (Isset($_POST['upload'])){
+        include 'fileupload.php';
+        }
+        if (Isset($_POST['invoer'])){
+        include 'filedownload.php';
+        }
         ?>
+        <img class="imagedisplay" src="<?php echo $foto_path; ?>" />
     </body>
 </html>
