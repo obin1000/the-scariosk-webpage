@@ -8,7 +8,7 @@
     </head>
     <body>
         <!--form voor de upload van de foto -->
-        <div class="formlayout">
+        <div class="layout">
         <form method="post" action="index.php" enctype="multipart/form-data">
             <img class="logocorendon" src="fotowebsite/logocorendon.jpg" alt="Image can't be displayed">
             <br />
@@ -17,7 +17,7 @@
             <input class="formsubmitbutton" type="submit" name="upload">
         </form>
         <!--form voor het ophalen van de foto -->
-        <form method="post" action="index.php">
+        <form method="post" action="display.php">
             <br />
             <input class="forminput" type="number" name="code" placeholder="Voer uw code in">
             <br />
@@ -25,13 +25,10 @@
         </form>
         <?php
         if (Isset($_POST['upload'])){
-        include 'fileupload.php';
-        }
-        if (Isset($_POST['invoer'])){
-        include 'filedownload.php';
+            include 'fileupload.php';
         }
         ?>
-        <img class="imagedisplay" src="<?php echo $foto_path; ?>" />
+        
         </div>
     </body>
 </html>
