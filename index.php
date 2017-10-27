@@ -9,7 +9,7 @@
     <body>
         <!--form voor de upload van de foto -->
         <div class="formlayout">
-        <form method="post" action="display.php" enctype="multipart/form-data">
+        <form method="post" action="index.php" enctype="multipart/form-data">
             <img class="logocorendon" src="fotowebsite/logocorendon.jpg" alt="Image can't be displayed">
             <br />
             <input class="forminput" type="file" name="foto">
