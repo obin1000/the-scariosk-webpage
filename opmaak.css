@@ -1,24 +1,24 @@
-body{
+.formlayout{
     text-align: center;
 }
 .logocorendon{
     width:40%;
 }
-
-input[type=submit] {
+.formsubmitbutton {
+    width: 43%;
     background-color: #f44336;
     color: white;
-    width: 42%;
     font-size: 25px;
+    padding: 1% 1%;
     text-decoration: none;
 }
 
-input[type=submit]:hover {
-    background-color: red}
-
-input {
-    font-size: 25px;
+.formsubmitbutton:hover {
+    background-color: red;
+}
+.forminput{
     width: 40%;
+    font-size: 25px;
     padding: 1% 1%;
     border-style: groove;
     text-align: center;
