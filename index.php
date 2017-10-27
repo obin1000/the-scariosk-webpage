@@ -8,19 +8,20 @@
     </head>
     <body>
         <!--form voor de upload van de foto -->
-        <form method="post" action="index.php" enctype="multipart/form-data">
+        <div class="formlayout">
+        <form method="post" action="display.php" enctype="multipart/form-data">
             <img class="logocorendon" src="fotowebsite/logocorendon.jpg" alt="Image can't be displayed">
             <br />
-            <input type="file" name="foto">
+            <input class="forminput" type="file" name="foto">
             <br />
-            <input type="submit" name="upload">
+            <input class="formsubmitbutton" type="submit" name="upload">
         </form>
         <!--form voor het ophalen van de foto -->
         <form method="post" action="index.php">
             <br />
-            <input type="number" name="code" placeholder="Voer uw code in">
+            <input class="forminput" type="number" name="code" placeholder="Voer uw code in">
             <br />
-            <input type="submit" name="invoer">
+            <input class="formsubmitbutton" type="submit" name="invoer">
         </form>
         <?php
         if (Isset($_POST['upload'])){
@@ -31,5 +32,6 @@
         }
         ?>
         <img class="imagedisplay" src="<?php echo $foto_path; ?>" />
+        </div>
     </body>
 </html>
