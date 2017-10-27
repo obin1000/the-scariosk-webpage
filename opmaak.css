@@ -1,4 +1,4 @@
-.formlayout{
+.layout{
     text-align: center;
 }
 .logocorendon{
@@ -24,5 +24,18 @@
     text-align: center;
 }
 .imagedisplay{
-    width: 40%;
+    width: 100%;
+}
+.showcase{
+    width: 100%;
+    text-align: center;
+}
+.showcase td {
+    width: 20%;
+}
+.arrowback {
+    width: 10%;
+}
+.header{
+    width: 100%;
 }
