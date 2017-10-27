@@ -16,7 +16,7 @@ else{
     //als er geen errors zijn wordt de afbeelding geupload
     if (move_uploaded_file($foto_tmp, $foto_locatie)){
         //De klant de id laten zin waarmee de foto kan worden opgehaald
-        echo "<h1>$foto_id</h1>";   
+        echo "<h1>Uw code is $foto_id</h1>";   
     }
 }
 //verbinding maken met de lokale database
