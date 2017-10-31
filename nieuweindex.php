@@ -147,7 +147,7 @@ li a:hover {
 <article class="window">
 <center><form action="/tweedepagina.php" method="post">
 <input class="forminput" type="number" placeholder="Voer code in" name="code">
-<input class="formsubmitbutton" type="submit" value="Haal je foto's" name="invoer">
+<input class="formsubmitbutton" type="submit" value="Haal jouw foto's" name="invoer">
 </form></center>
 </article>
 <footer class="footer">
