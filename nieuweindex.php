@@ -171,7 +171,7 @@ li a:hover {
 </article>
 
 <footer class="footer">
-<p>Gemaakt door IT-103-4 voor het project Fasten Your Seatbelts - 2017/2018</p>
+<p>Copyrights Corendom - 2017</p>
 </footer>
 
 </body>
