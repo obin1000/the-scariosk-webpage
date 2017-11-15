@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
+    
 <style>
-
 @font-face {
+    
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
@@ -12,6 +14,7 @@
 }
 
 .formsubmitbutton {
+    
 	position: absolute;
 	left: 14%;
 	bottom: 15%;
@@ -25,12 +28,13 @@
 }
 
 .formsubmitbutton:hover {
+    
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-
 .forminput{
+    
 	position: absolute;
 	bottom: 50%;
 	left: 13%;
@@ -59,6 +63,7 @@
 }
 
 .footer {
+    
 	position: absolute;
 	bottom: 0%;
 	left: 0%;
@@ -73,6 +78,7 @@
 }
 
 .inhoud {
+    
   overflow: auto;
   position: relative;
 }
@@ -98,10 +104,12 @@
   filter: blur(8px); }
   
   .logocorendon{
+      
     width:30%;
 }
 
 ul {
+    
 	position: absolute;
 	bottom: 85%;
 	left: 70%;
@@ -116,24 +124,31 @@ ul {
 }
 
 li {
+    
 	float: left;
 }
 
 li a {
+    
 	display: block;
 	font-family: Roboto;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none; 
 	}
+	
 li a:hover {
+    
 	background-color: #FF0000;	
 	}
 	
 
 </style>
+
 </head>
+
 <body>
+    
 <nav>
 <ul>
 <li><a href="blank.php">HOMEPAGE CORENDON</a></li>
@@ -141,15 +156,18 @@ li a:hover {
 <li><a href="https://www.w3schools.com">GITLAB</a></li>
 </ul>
 </nav>
+
 <div class="inhoud">
 <img class="logocorendon" src="logocorendon.png">
 </div>
+
 <article class="window">
-<center><form action="/tweedepagina.php" method="post">
+<form action="/tweedepagina.php" method="post">
 <input class="forminput" type="number" placeholder="Voer code in" name="code">
 <input class="formsubmitbutton" type="submit" value="Haal jouw foto's" name="invoer">
-</form></center>
+</form>
 </article>
+
 <footer class="footer">
 <p>Gemaakt door IT-103-4 voor het project Fasten Your Seatbelts - 2017/2018</p>
 </footer>
