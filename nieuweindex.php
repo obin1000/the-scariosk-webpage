@@ -1,11 +1,18 @@
 <!DOCTYPE html>
+
 <html>
-    
+
 <head>
-    
+
 <style>
+
+body {
+
+	display: flex;
+}
+
 @font-face {
-    
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
@@ -14,7 +21,7 @@
 }
 
 .formsubmitbutton {
-    
+
 	position: absolute;
 	left: 14%;
 	bottom: 15%;
@@ -28,13 +35,14 @@
 }
 
 .formsubmitbutton:hover {
-    
+
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-.forminput{
-    
+
+.forminput {
+
 	position: absolute;
 	bottom: 50%;
 	left: 13%;
@@ -51,19 +59,20 @@
 
 
 .window {
+
 		position: absolute;
 		left: 25%;
 		bottom: 35%;
-		background-color: #ffffff;
+		background-color: #FFFFFF;
 		border-radius: 5px;
 		box-shadow: 1px 1px 5px;
 		width: 50%;
-		height: 230px;
+		height: 30vh;
 		
 }
 
 .footer {
-    
+
 	position: absolute;
 	bottom: 0%;
 	left: 0%;
@@ -72,18 +81,19 @@
     text-align: center;
 	background-color: #FFFFFF;
 	width: 100%;
-	height: 70px;
+	height: 10vh;
 	border-top: 5px solid red;
 	box-shadow: 1px 1px 5px;
 }
 
 .inhoud {
-    
+
   overflow: auto;
   position: relative;
 }
 
 .inhoud:before {
+
   content: "";
   position: fixed;
   left: -5%;
@@ -96,20 +106,20 @@
   background-size:cover;
   width: 110%;
   height: 110%;
-
   -webkit-filter: blur(8px);
   -moz-filter: blur(8px);
   -o-filter: blur(8px);
   -ms-filter: blur(8px);
-  filter: blur(8px); }
+  filter: blur(8px);
+ }
   
-  .logocorendon{
-      
-    width:30%;
+  .logocorendon {
+
+    width: 30%;
 }
 
 ul {
-    
+
 	position: absolute;
 	bottom: 85%;
 	left: 70%;
@@ -138,7 +148,7 @@ li a {
 	}
 	
 li a:hover {
-    
+	
 	background-color: #FF0000;	
 	}
 	
@@ -148,7 +158,7 @@ li a:hover {
 </head>
 
 <body>
-    
+
 <nav>
 <ul>
 <li><a href="blank.php">HOMEPAGE CORENDON</a></li>
@@ -156,7 +166,6 @@ li a:hover {
 <li><a href="https://www.w3schools.com">GITLAB</a></li>
 </ul>
 </nav>
-
 <div class="inhoud">
 <img class="logocorendon" src="logocorendon.png">
 </div>
@@ -164,7 +173,7 @@ li a:hover {
 <article class="window">
 <form action="/tweedepagina.php" method="post">
 <input class="forminput" type="number" placeholder="Voer code in" name="code">
-<input class="formsubmitbutton" type="submit" value="Haal jouw foto's" name="invoer">
+<input class="formsubmitbutton" type="submit" value="Haal je foto's" name="invoer">
 </form>
 </article>
 
@@ -173,4 +182,5 @@ li a:hover {
 </footer>
 
 </body>
+
 </html>
