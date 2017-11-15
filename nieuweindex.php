@@ -160,7 +160,7 @@ li a:hover {
 <body>
 
 <div class="inhoud">
-<img class="logocorendon" src="logocorendon.png">
+<a href="index.php"><img class="logocorendon" src="logocorendon.png"></a>
 </div>
 
 <article class="window">
