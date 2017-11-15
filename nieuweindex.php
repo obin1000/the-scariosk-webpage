@@ -159,14 +159,6 @@ li a:hover {
 
 <body>
 
-<nav>
-<ul>
-<li><a href="blank.php">HOMEPAGE CORENDON</a></li>
-<li><a href="https://www.w3schools.com">OVER GROEP 4</a></li>
-<li><a href="https://www.w3schools.com">GITLAB</a></li>
-</ul>
-</nav>
-
 <div class="inhoud">
 <img class="logocorendon" src="logocorendon.png">
 </div>
