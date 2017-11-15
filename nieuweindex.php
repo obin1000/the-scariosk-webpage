@@ -166,6 +166,7 @@ li a:hover {
 <li><a href="https://www.w3schools.com">GITLAB</a></li>
 </ul>
 </nav>
+
 <div class="inhoud">
 <img class="logocorendon" src="logocorendon.png">
 </div>
