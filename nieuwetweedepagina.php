@@ -107,21 +107,21 @@ table, th, td {
 </div>
 <table>
   <tr>
-    <td><img id="foto1" src="Lelouch.jpg" alt="Foto 1" class="tabelplaatjes"></td>
-    <td><img id="foto2" src="Lelouch.jpg" alt="Foto 1" class="tabelplaatjes"></td>
+    <td><img id="foto1" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+    <td><img id="foto2" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
   </tr>
   <tr>
-    <td><img id="foto3" src="Lelouch.jpg" alt="Foto 1" class="tabelplaatjes"></td>
-    <td><img id="foto4" src="Lelouch.jpg" alt="Foto 1" class="tabelplaatjes"></td>
+    <td><img id="foto3" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+    <td><img id="foto4" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
   </tr>
   <tr>
-    <td><img id="foto5" src="Lelouch.jpg" alt="Foto 1" class="tabelplaatjes"></td>
-    <td><img id="foto6" src="Lelouch.jpg" alt="Foto 1" class="tabelplaatjes"></td>
+    <td><img id="foto5" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+    <td><img id="foto6" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
   </tr>
 </table>
 <div class="fullwindow"></div>
 <div id="test">
-<img src="Lelouch.jpg" alt="Foto1" class="grootplaatje" id="grotefoto">
+<img src="<?php echo $foto_path; ?>" alt="Foto1" class="grootplaatje" id="grotefoto">
 </div>
 <footer class="footer">
 <p>Copyrights Corendon - 2017</p>
