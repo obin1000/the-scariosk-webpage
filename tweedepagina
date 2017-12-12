@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
+    <head>
+        <style>
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -20,56 +20,6 @@
 		box-shadow: 1px 1px 5px;
 		width: 30%;
 		height: 80vh;
-}
-
-.layout{
-    text-align: center;
-}
-
-.logocorendon{
-    width:40%;
-}
-
-.formsubmitbutton {
-    width: 43%;
-    background-color: #f44336;
-    color: white;
-    font-size: 25px;
-    padding: 1% 1%;
-    text-decoration: none;
-}
-
-.formsubmitbutton:hover {
-    background-color: red;
-}
-
-.forminput{
-    width: 40%;
-    font-size: 25px;
-    padding: 1% 1%;
-    border-style: groove;
-    text-align: center;
-    
-}
-.imagedisplay{
-    width: 100%;
-}
-
-.showcase{
-    width: 100%;
-    text-align: center;
-}
-
-.showcase td {
-    width: 20%;
-}
-
-.arrowback {
-    width: 10%;
-}
-
-.header{
-    width: 100%;
 }
 
 .footer {
@@ -149,39 +99,39 @@ table, th, td {
 	box-shadow: 1px 1px 5px;
 	display: none;
 }
-</style>
-</head>
-<body>
-<div class="inhoud">
-<img class="logocorendon" src="logocorendon.png">
-</div>
-<table>
-  <tr>
-    <td><img id="foto1" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-    <td><img id="foto2" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-  </tr>
-  <tr>
-    <td><img id="foto3" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-    <td><img id="foto4" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-  </tr>
-  <tr>
-    <td><img id="foto5" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-    <td><img id="foto6" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-  </tr>
-</table>
-<div class="fullwindow"></div>
-<div id="test">
-<img src="<?php echo $foto_path; ?>" alt="Foto1" class="grootplaatje" id="grotefoto">
-</div>
-<footer class="footer">
-<p>Copyrights Corendon - 2017</p>
-</footer>
-<script>
-	var grotefoto = document.getElementById('grotefoto');
-	document.getElementById('foto1').onclick = function() {eersteFoto()}
-function eersteFoto(){
-	grotefoto.display.style = "block;
-	}
-</script>
-</body>
+        </style>
+    </head>
+    <body>
+        <div class="inhoud">
+            <img class="logocorendon" src="logocorendon.png">
+        </div>
+        <table>
+            <tr>
+                <td><img id="foto1" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto2" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+            </tr>
+            <tr>
+                <td><img id="foto3" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto4" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+            </tr>
+            <tr>
+                <td><img id="foto5" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto6" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+            </tr>
+        </table>
+        <div class="fullwindow"></div>
+        <div id="test">
+            <img src="<?php echo $foto_path; ?>" alt="Foto1" class="grootplaatje" id="grotefoto">
+        </div>
+        <footer class="footer">
+            <p>Copyrights Corendon - 2017</p>
+        </footer>
+        <script>
+        	var grotefoto = document.getElementById('grotefoto');
+	        document.getElementById('foto1').onclick = function() {eersteFoto()}
+        function eersteFoto(){
+	        grotefoto.display.style = "block;
+	    }
+        </script>
+    </body>
 </html>
