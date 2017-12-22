@@ -43,27 +43,27 @@ body {
 }
 
 .window {
-		position: absolute;
-		left: 25%;
-		bottom: 35%;
-		background-color: #FFFFFF;
-		border-radius: 5px;
-		box-shadow: 1px 1px 5px;
-		width: 50%;
-		height: 30vh;
+	position: absolute;
+	left: 25%;
+	bottom: 35%;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px;
+	width: 50%;
+	height: 30vh;
 		
 }
 
 
 .fullwindow {
-		border-top: 5px solid red;
-		position: absolute;
-		left: 40%;
-		bottom: 4%;
-		background-color: #FFFFFF;
-		box-shadow: 1px 1px 5px;
-		width: 30%;
-		height: 80vh;
+	border-top: 5px solid red;
+	position: absolute;
+	left: 40%;
+	bottom: 4%;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 5px;
+	width: 30%;
+	height: 80vh;
 }
 
 .footer {
@@ -118,7 +118,7 @@ table {
 table, th, td {
     border: 10px solid white;
     border-collapse: collapse;
-		box-shadow: 1px 1px 5px;
+	box-shadow: 1px 1px 5px;
 }
 
 .tabelplaatjes {
