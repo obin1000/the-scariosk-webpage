@@ -54,18 +54,6 @@ body {
 		
 }
 
-
-.fullwindow {
-	border-top: 5px solid red;
-	position: absolute;
-	left: 40%;
-	bottom: 4%;
-	background-color: #FFFFFF;
-	box-shadow: 1px 1px 5px;
-	width: 30%;
-	height: 80vh;
-}
-
 .footer {
 	position: absolute;
 	bottom: -10%;
@@ -112,9 +100,10 @@ body {
 table {
 	position: absolute;
 	top: 22.5%;
-	left: 17.5%;
+	left: 40%;
 	width: 20%;
 	}
+	
 table, th, td {
     border: 10px solid white;
     border-collapse: collapse;
