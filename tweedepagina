@@ -31,12 +31,5 @@
         <footer class="footer">
             <p>Copyrights Corendon - 2017</p>
         </footer>
-        <script>
-        	var grotefoto = document.getElementById('grotefoto');
-	        document.getElementById('foto1').onclick = function() {eersteFoto()}
-        function eersteFoto(){
-	        grotefoto.display.style = "block;
-	    }
-        </script>
     </body>
 </html>
