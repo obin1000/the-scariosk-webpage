@@ -114,20 +114,9 @@ table, th, td {
 .tabelplaatjes {
 	display: block;
 	width: 100%;
-	height: 20vh;
+	height: 200vh;
 	padding: 0;
 	margin: 0;
 
 }
 
-.tabelplaatjes:hover {
-    cursor: pointer;
-	}
-
-.grootplaatje {
-	position: absolute;
-	left: 41.5%;
-	bottom: 8%;
-	box-shadow: 1px 1px 5px;
-	display: none;
-}
