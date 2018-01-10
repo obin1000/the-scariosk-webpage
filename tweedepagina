@@ -15,6 +15,7 @@
             <tr>
                 <td><img id="foto1" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
                 <td><img id="foto2" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                // 2 fotos naast elkaar 
             </tr>
             <tr>
                 <td><img id="foto3" src="<?php echo $foto_path; ?>" alt="Foto 1" class="tabelplaatjes"></td>
