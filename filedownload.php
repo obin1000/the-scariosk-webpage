@@ -9,6 +9,6 @@ $query = "SELECT path FROM foto WHERE id=$code";
 $exquery = $link->query($query);
 //verzamelen van de resultaten
 $row = $exquery-> fetch_assoc();
-//variable voor het oproepen van de foto
+//variabele voor het oproepen van de foto
 $foto_path= $row['path'];
 $link->close();
