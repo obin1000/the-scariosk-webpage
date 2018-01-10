@@ -9,7 +9,7 @@
     <body>
         <div class="inhoud">
             <img class="logocorendon" src="logocorendon.png">
-            // logo boven aan pagina
+            <!-- logo boven aan pagina -->
         </div>
         <table>
             <tr>
