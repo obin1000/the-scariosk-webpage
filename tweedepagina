@@ -19,17 +19,17 @@
         </div>
         <table>
             <tr>
-                <td><img id="foto1" src="<?php echo $foto_path, "0.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-                <td><img id="foto2" src="<?php echo $foto_path, "1.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto1" src="<?php echo $foto_path . "0.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto2" src="<?php echo $foto_path . "1.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
                 <!--  2 fotos naast elkaar -->
             </tr>
             <tr>
-                <td><img id="foto3" src="<?php echo $foto_path, "2.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-                <td><img id="foto4" src="<?php echo $foto_path, "3.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto3" src="<?php echo $foto_path . "2.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto4" src="<?php echo $foto_path . "3.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
             </tr>
             <tr>
-                <td><img id="foto5" src="<?php echo $foto_path, "4.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
-                <td><img id="foto6" src="<?php echo $foto_path, "5.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto5" src="<?php echo $foto_path . "4.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
+                <td><img id="foto6" src="<?php echo $foto_path . "5.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
             </tr>
         </table>
         <footer class="footer">
