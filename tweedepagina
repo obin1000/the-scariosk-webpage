@@ -26,10 +26,6 @@
                 <td><img id="foto6" src="<?php echo $foto_path, "5.jpg"; ?>" alt="Foto 1" class="tabelplaatjes"></td>
             </tr>
         </table>
-        <div class="fullwindow"></div>
-        <div id="test">
-            <img src="<?php echo $foto_path; ?>" alt="Foto1" class="grootplaatje" id="grotefoto">
-        </div>
         <footer class="footer">
             <p>Copyrights Corendon - 2017</p>
         </footer>
