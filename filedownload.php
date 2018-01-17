@@ -10,5 +10,8 @@ $exquery = mysqli_query($link,$query) or die('foto niet gevonden');
 //verzamelen van de resultaten
 $row = mysqli_fetch_array($exquery);
 //variabele voor het oproepen van de foto
-$foto_path= $row['path'];
+$fotoAdbsolutePath= $row['path'];
+//absoluut pad omzetten naar relatief voor de img tag van html
+$fotoRelativePath = explode($_SERVER['DOCUMENT_ROOT'], $fotoAdbsolutePath);
+$fotoRelativePath = end($fotoRelativePath);
 $link->close();
