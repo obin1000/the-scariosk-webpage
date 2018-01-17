@@ -82,7 +82,7 @@ body {
   z-index: -1;
 
   display: block;
-  background-image: url('achtergrond.jpg');
+  background-image: url('/fotowebsite/achtergrond.jpg');
   background-size:cover;
   width: 110%;
   height: 110%;
