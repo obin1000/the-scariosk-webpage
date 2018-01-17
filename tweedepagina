@@ -24,12 +24,24 @@
                 <!--  2 fotos naast elkaar -->
             </tr>
             <tr>
+                <td><?php echo "<a href={$fotoRelativePath}0.jpg download><div class=downloadKnop><p>Download</p></div></a>"; ?></td>
+                <td><?php echo "<a href={$fotoRelativePath}1.jpg download><div class=downloadKnop><p>Download</p></div></a>"; ?></td>
+            </tr>
+            <tr>
                 <td><?php echo "<img src={$fotoRelativePath}2.jpg alt='Foto 1' class='tabelplaatjes'>"; ?></td>
                 <td><?php echo "<img src={$fotoRelativePath}3.jpg alt='Foto 1' class='tabelplaatjes'>"; ?></td>
+            </tr>
+             <tr>
+                <td><?php echo "<a href={$fotoRelativePath}2.jpg download><div class=downloadKnop><p>Download</p></div></a>"; ?></td>
+                <td><?php echo "<a href={$fotoRelativePath}3.jpg download><div class=downloadKnop><p>Download</p></div></a>"; ?></td>
             </tr>
             <tr>
                 <td><?php echo "<img src={$fotoRelativePath}4.jpg alt='Foto 1' class='tabelplaatjes'>"; ?></td>
                 <td><?php echo "<img src={$fotoRelativePath}5.jpg alt='Foto 1' class='tabelplaatjes'>"; ?></td>
+            </tr>
+             <tr>
+                <td><?php echo "<a href={$fotoRelativePath}4.jpg download><div class=downloadKnop><p>Download</p></div></a>"; ?></td>
+                <td><?php echo "<a href={$fotoRelativePath}5.jpg download><div class=downloadKnop><p>Download</p></div></a>"; ?></td>
             </tr>
         </table>
         <footer class="footer">
