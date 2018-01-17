@@ -12,7 +12,7 @@
 <body>
 
     <div class="inhoud">
-        <a href="index.php"><img class="logocorendon" src="logocorendon.png"></a>
+        <a href="index.php"><img class="logocorendon" src="/fotowebsite/logocorendon.png"></a>
     </div>
 
     <article class="window">
