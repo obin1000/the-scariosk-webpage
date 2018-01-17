@@ -7,10 +7,10 @@
         <link rel="stylesheet" type="text/css" href="opmaak.css">
     </head>
     <body>
-            <?php
-        if (Isset($_POST['invoer'])){
-            include 'filedownload.php';
-        }
+        <?php
+            if (Isset($_POST['invoer'])){
+                include 'filedownload.php';
+            }
         ?>
 
         <div class="inhoud">
