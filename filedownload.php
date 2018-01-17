@@ -2,13 +2,13 @@
 //inlezen van de ingevoerde code
 $code = $_POST['code'];
 //verbinding met de database maken
-$link = new mysqli("localhost", "prinses", "prinses1337", "prinsesdb") or die(mysql_error());
+$link = mysqli_connect("127.0.0.1", "scariosk", "veryscary", "scariosk") or die(mysql_error());
 //query voor het selecteren van de foto
-$query = "SELECT path FROM foto WHERE id=$code";
+$query = "SELECT path FROM fotodata WHERE fotoid='$code'";
 //uitvoeren van de query
-$exquery = $link->query($query);
+$exquery = mysqli_query($link,$query) or die('foto niet gevonden');
 //verzamelen van de resultaten
-$row = $exquery-> fetch_assoc();
+$row = mysqli_fetch_array($exquery);
 //variabele voor het oproepen van de foto
 $foto_path= $row['path'];
 $link->close();
