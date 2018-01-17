@@ -98,23 +98,32 @@ body {
 }
 
 table {
-	position: absolute;
-	top: 22.5%;
-	left: 25%;
-	width: 50%;
+    position: absolute;
+    top: 22.5%;
+    left: 25%;
+    width: 50%;
 	}
 	
 table, th, td {
     border: 10px solid white;
     border-collapse: collapse;
-	box-shadow: 1px 1px 5px;
+    box-shadow: 1px 1px 5px;
 }
 
 .tabelplaatjes {
-	display: block;
-	width: 100%;
-	padding: 0;
-	margin: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 
+}
+.downloadKnop{
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
 }
 
